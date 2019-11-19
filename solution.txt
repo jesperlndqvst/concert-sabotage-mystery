@@ -1,0 +1,46 @@
+SELECT * FROM crime_scene_report
+WHERE date = '10/22/2019'
+AND city = 'Gothenburg';
+
+SELECT * FROM person
+WHERE name = 'Jesper Rockvist' OR name = 'Erik Sleazeman';
+
+SELECT * FROM interview
+INNER JOIN person ON person.id = interview.person_id
+WHERE person_id = 12 OR person_id = 287;
+
+SELECT * FROM employees
+INNER JOIN drivers_license ON drivers_license.id = employees.license_id
+WHERE occupation = 'Sound tech'
+AND gender = 'Female';
+
+SELECT name, transcript FROM person
+INNER JOIN interview ON interview.person_id = person.id
+WHERE person.license_id = 17;
+
+SELECT * FROM drivers_license
+WHERE hair_color = 'Brown' AND car_model = 'Volvo' AND age < 40 AND age >= 30;
+
+SELECT * FROM person
+INNER JOIN facebook_events ON facebook_events.person_id = person.id
+WHERE person.license_id = 151 OR person.license_id = 210
+AND event_name LIKE '%Metallica%' AND event_name LIKE '%Ullevi%';       
+
+
+Solution 
+|
+|
+|
+V
+
+
+
+
+
+
+
+
+
+
+
+Our criminal is: Horton Roddy
