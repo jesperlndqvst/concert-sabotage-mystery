@@ -16,7 +16,7 @@ There's been a crime in Gothenburg City! Someone sabotaged a popular concert eve
 
 ## Authors
 
-* [Henric Björkvall](https://github.com/henribjork)
+* [Henric Björkvall](https://github.com/henricbjork)
 * [Jesper Lundqvist](https://github.com/jesperlndqvst)
 * [Erik Johannesson](https://github.com/erik-joh)
 
